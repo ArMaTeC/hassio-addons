@@ -1,4 +1,4 @@
-# svk's Add-ons repository
+# ArMaTeC's Add-ons repository
 
 ## Installing
 
