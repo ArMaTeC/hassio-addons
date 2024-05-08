@@ -41,9 +41,9 @@ ADD --link rootfs /
 
 ENV CONFIG_PATH=/data/options.json
 LABEL \
-  io.hass.version="2.6.4" \
+  io.hass.version="2.6.2" \
   io.hass.type="addon" \
-  io.hass.arch="aarch64|amd64"
+  io.hass.arch="amd64"
 
 ADD --link https://github.com/hassio-addons/bashio/archive/v0.14.3.tar.gz /tmp/bashio.tar.gz
 RUN mkdir -p /tmp/bashio \
