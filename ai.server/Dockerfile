@@ -3,7 +3,7 @@ ARG BUILD_FROM
 
 FROM ${BUILD_FROM}
 
-ARG S6_OVERLAY_VERSION=3.1.5.0
+ARG S6_OVERLAY_VERSION=0.0.1.0
 ARG TARGETARCH
 ARG BUILD_ARCH=${TARGETARCH}
 RUN \
@@ -41,7 +41,7 @@ ADD --link rootfs /
 
 ENV CONFIG_PATH=/data/options.json
 LABEL \
-  io.hass.version="2.5.1" \
+  io.hass.version="2.6.4" \
   io.hass.type="addon" \
   io.hass.arch="aarch64|amd64"
 
